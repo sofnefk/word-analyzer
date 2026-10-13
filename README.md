@@ -60,7 +60,7 @@ English literature student and English teacher, interested in linguistics, digit
 A Streamlit app where you paste or upload any text and get word frequencies,
 a CEFR level estimate, and a list of vocabulary worth teaching at a chosen level.
 
-Run it with: `py -m streamlit run app.py`
+Run it with: `py -3.14 -m streamlit run app.py`
 
 Word levels come from the CEFR-J Wordlist (Tono Laboratory, Tokyo University of
 Foreign Studies, cefr-j.org). The estimate is approximate: it covers A1-B2
