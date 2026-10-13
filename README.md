@@ -54,3 +54,15 @@ My first version listed "t" and "s" among the most common words in the book. The
 ## About me
 
 English literature student and English teacher, interested in linguistics, digital media and learning to code.
+
+## Version 2: Text Analyzer web app
+
+A Streamlit app where you paste or upload any text and get word frequencies,
+a CEFR level estimate, and a list of vocabulary worth teaching at a chosen level.
+
+Run it with: `py -m streamlit run app.py`
+
+Word levels come from the CEFR-J Wordlist (Tono Laboratory, Tokyo University of
+Foreign Studies, cefr-j.org). The estimate is approximate: it covers A1-B2
+vocabulary and uses simple suffix matching, so names and rare words show up as
+"not in list".
